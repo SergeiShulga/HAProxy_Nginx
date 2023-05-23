@@ -27,11 +27,13 @@ Weighted Round Robin
 #### Задание 3
 Установите и запустите Haproxy.
 Приведите скриншот systemctl status haproxy, где будет видно, что Haproxy запущен.
+
 ![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/03.png)
 
 #### Задание 4
 Установите и запустите Nginx.
 Приведите скриншот systemctl status nginx, где будет видно, что Nginx запущен.
+
 ![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/04.png)
 
 #### Задание 5
@@ -40,7 +42,8 @@ curl http://localhost:8088/ping
 он возвращал в ответе строчку:
 "nginx is configured correctly".
 Приведите конфигурации настроенного Nginx сервиса и скриншот результата выполнения команды curl http://localhost:8088/ping.
-![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/05.png)
+
+![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/09.png)
 ![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/06.png)
 
 #### Задание 6*
@@ -49,4 +52,6 @@ curl http://localhost:8080/
 он проксировал его в Nginx на порту 8088, который был настроен в задании 5 и возвращал от него ответ:
 "nginx is configured correctly".
 Приведите конфигурации настроенного Haproxy и скриншоты результата выполнения команды curl http://localhost:8080/.
+
+![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/10.png)
 ![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/07.png)
