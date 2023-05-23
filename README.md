@@ -24,36 +24,29 @@ Round Robin, или алгоритм кругового обслуживания
 Weighted Round Robin
 Это — усовершенствованная версия алгоритма Round Robin. Суть усовершенствований заключается в следующем: каждому серверу присваивается весовой коэффициент в соответствии с его производительностью и мощностью. Это помогает распределять нагрузку более гибко: серверы с большим весом обрабатывают больше запросов. Однако всех проблем с отказоустойчивостью это отнюдь не решает. Более эффективную балансировку обеспечивают другие методы, в которых при планировании и распределении нагрузки учитывается большее количество параметров.
 
-Задание 3
+#### Задание 3
 Установите и запустите Haproxy.
 Приведите скриншот systemctl status haproxy, где будет видно, что Haproxy запущен.
-![alt text](https://github.com/username/reponame/blob/branch/path/image.png)
-Задание 4
+![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/03.png)
+
+#### Задание 4
 Установите и запустите Nginx.
-
 Приведите скриншот systemctl status nginx, где будет видно, что Nginx запущен.
+![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/04.png)
 
-Задание 5
+#### Задание 5
 Настройте Nginx на виртуальной машине таким образом, чтобы при запросе:
-
 curl http://localhost:8088/ping
-
 он возвращал в ответе строчку:
-
 "nginx is configured correctly".
-
 Приведите конфигурации настроенного Nginx сервиса и скриншот результата выполнения команды curl http://localhost:8088/ping.
+![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/05.png)
+![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/06.png)
 
-Задания со звёздочкой*
-Эти задания дополнительные. Их выполнять не обязательно. На зачёт это не повлияет. Вы можете их выполнить, если хотите глубже разобраться в материале.
-
-Задание 6*
+#### Задание 6*
 Настройте Haproxy таким образом, чтобы при ответе на запрос:
-
 curl http://localhost:8080/
-
 он проксировал его в Nginx на порту 8088, который был настроен в задании 5 и возвращал от него ответ:
-
 "nginx is configured correctly".
-
 Приведите конфигурации настроенного Haproxy и скриншоты результата выполнения команды curl http://localhost:8080/.
+![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/07.png)
