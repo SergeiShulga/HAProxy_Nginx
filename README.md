@@ -26,9 +26,8 @@ Weighted Round Robin
 
 Задание 3
 Установите и запустите Haproxy.
-
 Приведите скриншот systemctl status haproxy, где будет видно, что Haproxy запущен.
-
+![alt text](https://github.com/username/reponame/blob/branch/path/image.png)
 Задание 4
 Установите и запустите Nginx.
 
