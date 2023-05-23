@@ -28,13 +28,13 @@ Weighted Round Robin
 Установите и запустите Haproxy.
 Приведите скриншот systemctl status haproxy, где будет видно, что Haproxy запущен.
 
-![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/03.png)
+![alt text]([https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/03.png])
 
 #### Задание 4
 Установите и запустите Nginx.
 Приведите скриншот systemctl status nginx, где будет видно, что Nginx запущен.
 
-![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/04.png)
+![alt text]([https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/04.png])
 
 #### Задание 5
 Настройте Nginx на виртуальной машине таким образом, чтобы при запросе:
@@ -43,8 +43,8 @@ curl http://localhost:8088/ping
 "nginx is configured correctly".
 Приведите конфигурации настроенного Nginx сервиса и скриншот результата выполнения команды curl http://localhost:8088/ping.
 
-![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/09.png)
-![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/06.png)
+![alt text]([https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/09.png])
+![alt text]([https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/06.png])
 
 #### Задание 6*
 Настройте Haproxy таким образом, чтобы при ответе на запрос:
@@ -53,5 +53,5 @@ curl http://localhost:8080/
 "nginx is configured correctly".
 Приведите конфигурации настроенного Haproxy и скриншоты результата выполнения команды curl http://localhost:8080/.
 
-![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/10.png)
-![alt text]([https://github.com/username/reponame/blob/branch/path/image.png](https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/07.png)
+![alt text]([https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/10.png])
+![alt text]([(https://github.com/SergeiShulga/HAProxy_Nginx/blob/main/img/07.png])
